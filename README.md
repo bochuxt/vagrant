@@ -1,4 +1,9 @@
 # localranchervagrant
+GUIDE:
+https://rancher.com/rancher-vagrant/
+github
+
+
 ![Pretty Picture](https://github.com/chrisurwin/localranchervagrant/blob/master/localranchervagrant.PNG)
 
 Vagrant files to stand up a Local Rancher install with 3 nodes
@@ -23,9 +28,9 @@ This has been tested with vagrant 1.9.1 and VirtualBox 5.0.32. If you experience
 
 The config.yml contains any variables that you should need to change, below is a description of the variables and their values:
 
-**orchestrator** - Possible values are `cattle`, `kubernetes`, `mesos` and `swarm` 
+**orchestrator** - Possible values are `cattle`, `kubernetes`, `mesos` and `swarm`
 
-This sets the orchestrator that will be used for the environment, as part of the process the Default environment is deleted and we create a new one with the name of the orchestrator. 
+This sets the orchestrator that will be used for the environment, as part of the process the Default environment is deleted and we create a new one with the name of the orchestrator.
 
 **network_mode** - Possible values are `isolated`, `airgap` and `normal`
 
